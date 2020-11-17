@@ -206,6 +206,9 @@
                                 <rect key="frame" x="256" y="171" width="94" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.93725490196078431" green="0.28235294117647058" blue="0.13725490196078433" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <action selector="sizeResultLabel:" destination="BYZ-38-t0r" eventType="valueChanged" id="wTN-Ih-lrd"/>
+                                </connections>
                             </stepper>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lzn-B4-JzL">
                                 <rect key="frame" x="31" y="480" width="72" height="72"/>

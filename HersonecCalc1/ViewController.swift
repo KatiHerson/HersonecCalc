@@ -61,5 +61,11 @@ class ViewController: UIViewController {
         } else {
             resultLabel.text = String(result)
         }
-    }
+      }
+    
+    @IBAction func sizeResultLabel(_ sender: UIStepper) {
+        let font = resultLabel.font?.fontName
+        let fontSize = CGFloat(sender.value)
+        resultLabel.font = UIFont(name: font!, size: fontSize)
+            }
 }
